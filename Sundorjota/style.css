@@ -101,12 +101,16 @@ main{
   margin: 0 auto;
 
 }
+main section{
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
 /* About syle */
 .about{
   border-radius: 10px;
   padding: 130px 150px;
   text-align: center;
-  margin-top: 129px;
 }
 .about-iteam{
   display: flex;
@@ -114,4 +118,20 @@ main{
 }
 .iteam-descrip{
   font-weight: 600;
+}
+
+.aline{
+  text-align: center;
+}
+
+/* Skill style */
+
+.skill-container{
+  display: flex;
+  gap: 24px;
+}
+.skill{
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgb(0, 0, 0,0.06);
 }
