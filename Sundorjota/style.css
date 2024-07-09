@@ -7,6 +7,9 @@
     "wdth" 100;
 }
 /* Header */
+.secbg{
+  background-color: #fff8f3;
+}
 .Header{
   background-image: url('/images/developer.png'), url('/images/header_bg.png');
   background-repeat: no-repeat;
@@ -58,6 +61,18 @@ nav li a {
   border-radius: 5px;
 
 }
+.section-title{
+  font-size: 35px;
+  font-weight: bold;
+  color:#181818
+
+}
+.section-discreption{
+  font-size: 18px;
+  color:#757575
+
+
+}
 /* Banner Style */
 .banner{
   display: flex;
@@ -79,4 +94,24 @@ nav li a {
 .profile-picture{
   width: 588px;
 
+}
+/* MAin */
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+
+}
+/* About syle */
+.about{
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+  margin-top: 129px;
+}
+.about-iteam{
+  display: flex;
+  justify-content: space-around;
+}
+.iteam-descrip{
+  font-weight: 600;
 }
