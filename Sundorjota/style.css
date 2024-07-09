@@ -1,5 +1,82 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* Header */
+.Header{
+  background-image: url('/images/developer.png'), url('/images/header_bg.png');
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
 nav{
   display: flex;
+  align-items:  center;
+  justify-content: space-between;
+  margin: 50px 200px;
+}
+/* Nav Style */
+.nav-tittle{
+
+  font-weight: 800;
+  font-size: 45px;
+
+
+}
+.txter{
+  color: #fd6e0a
+}
+nav ul{
+  display: flex;
+  align-items: center;
 }
 
-/*  Nav style */
+nav ul li{
+  list-style: none;
+  margin-right: 50px;
+
+
+}
+
+nav li a {
+  text-decoration: none;
+  font-size: 20 px;
+}
+
+.dark2{
+  color: #474747
+
+}
+.btn-secondary{
+  background-color: #fd6e0a ;
+  font-weight: bold;
+  color:white;
+  padding:  19px 30px ;
+  border-radius: 5px;
+
+}
+/* Banner Style */
+.banner{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 35px 0 200px;
+}
+.banner-con{
+  max-width: 580px;
+}
+
+.banner-greeding{
+  font-size: 45px;
+  font-weight: 400px;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.profile-picture{
+  width: 588px;
+
+}
